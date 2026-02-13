@@ -1,0 +1,53 @@
+Assignment1 : Inverted Index Implementation and Comparative Analysis 
+Objective:
+The goal of this assignment is to design and implement an Inverted Index for a given text corpus and conduct a comparative analysis under different system configurations. You will study how linguistic preprocessing, positional information, and spell checking affect index size, query performance, and retrieval effectiveness. 
+
+Task Description:
+Consider the movies corpus shared on the drive/email
+Preprocess the corpus (Every paragraph needs to stored as a document)
+
+Baseline Index
+    A)Tokenization only
+    B)No preprocessing
+    C)Non-positional inverted index
+
+
+Construct the inverted index for the movies dataset and write the index to a text file.
+Construct and compare the following variants:
+with skip list implementation: 
+show the results of queries that indicate reduction in latency 
+
+With Linguistic Preprocessing:
+Case folding
+Stop-word removal
+Stemming or lemmatization
+
+
+Write the index to a text file. The size of the file reduces. Show the reduction in file size
+
+With Positional Information
+Positional index:
+Term → list of (document ID, positions)
+Show results for phrase queries
+
+
+With Spell Check
+Implement edit distance–based correction or k-gram based correction
+Apply correction before query execution
+
+
+Query Processing
+Implement a simple query engine supporting:
+    Single-term queries
+    Multi-term Boolean queries (AND/OR)
+    Phrase queries (for positional index)
+Provide at least 10 test queries, including:
+    Correctly spelled queries
+    Misspelled queries
+    Phrase queries
+
+
+
+Deliverables
+Source Code (well-documented)
+Analysis Report 
