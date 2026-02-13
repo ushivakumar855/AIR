@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/shiva/Downloads/AIR",
-      "program": "c:/Users/shiva/Downloads/AIR/build/Debug/outDebug",
+      "cwd": "c:/Users/shiva/Downloads/AIR 3",
+      "program": "c:/Users/shiva/Downloads/AIR 3/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
